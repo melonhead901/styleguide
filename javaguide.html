@@ -7,7 +7,7 @@
   <link href="http://www.google.com/favicon.ico"
         type="image/x-icon" rel="shortcut icon" />
   <title>Google Java Style</title>
-</head>
+</head>n
 <body>
   <h1>Google Java Style</h1>
   <div class="change">Last changed: March 21, 2014</div>
@@ -648,7 +648,7 @@ enum SomeEnum { ENUM_CONSTANT }
 // Not constants
 static String nonFinal = "non-final";
 final String nonStatic = "non-static";
-static final Set&lt;String&gt; mutableCollection = new HashSet&lt;String&gt;();
+static final Set&lt;String&gt; mutableCollection = new HashSet&lt;&gt;();
 static final ImmutableSet&lt;SomeMutableType&gt; mutableElements = ImmutableSet.of(mutable);
 static final Logger logger = Logger.getLogger(MyClass.getName());
 static final String[] nonEmptyArray = {"these", "can", "change"};
